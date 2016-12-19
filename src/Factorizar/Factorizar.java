@@ -16,15 +16,15 @@ public class Factorizar {
      */
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        int Valor1;
+        int Valor2;
 
-        j = 8;
+        Valor1 = 8;
 
-        int i = 0;
-        f = CodigoPrincipal(j, i);
+        int Valor3 = 0;
+        Valor2 = CodigoPrincipal(Valor1, Valor3);
 
-        Imprimirpantalla(f);
+        Imprimirpantalla(Valor2);
 
     }
 
