@@ -15,15 +15,16 @@ public class Factorizar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+//Cambiamos los nombres de las variables
         int Valor1;
         int Valor2;
 
         Valor1 = 8;
 
         int Valor3 = 0;
+//El codigo principal lo metemos en un metodo para que sea mas legible
         Valor2 = CodigoPrincipal(Valor1, Valor3);
-
+//Imprimimos por pantalla el valor y lo metemos en un metodo
         Imprimirpantalla(Valor2);
 
     }
