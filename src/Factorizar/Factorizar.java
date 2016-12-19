@@ -15,36 +15,34 @@ public class Factorizar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     
 
-    int Numero;
-    int Factor;
+        int j;
+        int f;
 
-  
-   Numero = 8;    
-   
+        j = 8;
 
-    
-   int i;
-   if (Numero == 0)
-Factor = 1;
-   else
-   {
-Factor = 1;
-for (i = Numero; i >= 1; i--)
-{
-    Factor = Factor * i;
-}
-   }    
-  
- 
+        int i = 0;
+        f = CodigoPrincipal(j, i);
 
-System.out.println(Factor); 
-
+        Imprimirpantalla(f);
 
     }
-    
-}
-    
-    
 
+    private static void Imprimirpantalla(int f) {
+        System.out.println(f);
+    }
+
+    private static int CodigoPrincipal(int j, int i) {
+        int f;
+        if (j == 0) {
+            f = 1;
+        } else {
+            f = 1;
+            for (i = j; i >= 1; i--) {
+                f = f * i;
+            }
+        }
+        return f;
+    }
+
+}
