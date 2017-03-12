@@ -43,7 +43,7 @@ public class Factorizar {
                 f = f * i;
             }
         }
-        return f;
+        
     }
 
 }
